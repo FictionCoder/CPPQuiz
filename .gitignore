@@ -50,3 +50,6 @@ Debug/
 *.sdf
 CPPQuiz.opensdf
 *.ipch
+*.suo
+CPPQuiz.v12.suo
+*.suo
