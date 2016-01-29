@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPPQuiz", "CPPQuiz\CPPQuiz.vcxproj", "{8871F70B-12AA-44A8-94B6-9ECE24BEDA91}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{B970AB8C-2150-4458-B49C-D6E4D320CC1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8871F70B-12AA-44A8-94B6-9ECE24BEDA91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8871F70B-12AA-44A8-94B6-9ECE24BEDA91}.Debug|Win32.Build.0 = Debug|Win32
+		{8871F70B-12AA-44A8-94B6-9ECE24BEDA91}.Release|Win32.ActiveCfg = Release|Win32
+		{8871F70B-12AA-44A8-94B6-9ECE24BEDA91}.Release|Win32.Build.0 = Release|Win32
+		{B970AB8C-2150-4458-B49C-D6E4D320CC1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B970AB8C-2150-4458-B49C-D6E4D320CC1B}.Debug|Win32.Build.0 = Debug|Win32
+		{B970AB8C-2150-4458-B49C-D6E4D320CC1B}.Release|Win32.ActiveCfg = Release|Win32
+		{B970AB8C-2150-4458-B49C-D6E4D320CC1B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
