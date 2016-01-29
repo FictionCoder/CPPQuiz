@@ -41,5 +41,8 @@
     <ClCompile Include="BinaryOperation.cpp">
       <Filter>Source Files\Quiz</Filter>
     </ClCompile>
+    <ClCompile Include="StringOperation.cpp">
+      <Filter>Source Files\Quiz</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
