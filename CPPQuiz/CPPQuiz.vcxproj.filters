@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Quiz">
       <UniqueIdentifier>{7c71ecc5-9054-45e0-a924-03210df1720d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Quiz">
+      <UniqueIdentifier>{e7f1634c-623f-4644-a89d-0585a4f84901}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -30,6 +33,9 @@
     <ClInclude Include="Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Quiz\LinkedListOperations.h">
+      <Filter>Header Files\Quiz</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -38,10 +44,13 @@
     <ClCompile Include="CPPQuiz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinaryOperation.cpp">
+    <ClCompile Include="Quiz\BinaryOperations.cpp">
       <Filter>Source Files\Quiz</Filter>
     </ClCompile>
-    <ClCompile Include="StringOperation.cpp">
+    <ClCompile Include="Quiz\StringOperations.cpp">
+      <Filter>Source Files\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz\LinkedListOperations.cpp">
       <Filter>Source Files\Quiz</Filter>
     </ClCompile>
   </ItemGroup>

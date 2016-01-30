@@ -5,7 +5,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest
 {
-	TEST_CLASS(TestStringOperation)
+	TEST_CLASS(TestStringOperations)
 	{
 	public:
 		TEST_METHOD(TestToLower)

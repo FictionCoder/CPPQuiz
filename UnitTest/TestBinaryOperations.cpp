@@ -5,7 +5,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest
 {		
-	TEST_CLASS(TestBinaryOperation)
+	TEST_CLASS(TestBinaryOperations)
 	{
 	public:
 		
