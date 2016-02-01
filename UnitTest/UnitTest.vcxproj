@@ -86,6 +86,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="TestBSTOperations.cpp" />
     <ClCompile Include="TestLinkedListOperations.cpp" />
     <ClCompile Include="TestSortingOperations.cpp" />
     <ClCompile Include="TestStringOperations.cpp" />

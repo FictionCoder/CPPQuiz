@@ -2,6 +2,7 @@
 #include "CppUnitTest.h"
 #include "Common.h"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+using namespace LinkedList;
 
 namespace UnitTest
 {

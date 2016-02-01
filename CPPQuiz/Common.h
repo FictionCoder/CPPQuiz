@@ -13,8 +13,10 @@ extern int StrCmpN(const char* str1, const char* str2, unsigned int n);
 
 // Linked list operations
 #include "Quiz\LinkedListOperations.h"
-extern char* ReverseLinkedList(char* pHead);
 
 // Sorting operations
 extern void BubbleSort(std::vector<int>& v);
 extern void QuickSort(std::vector<int>& v);
+
+// BST opertions
+#include "Quiz\BSTOperations.h"
