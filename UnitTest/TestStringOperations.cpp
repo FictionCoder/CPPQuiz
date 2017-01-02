@@ -30,6 +30,10 @@ namespace UnitTest
 			Assert::IsTrue(StrCmp("Abc", "abc") < 0);
 			Assert::IsTrue(StrCmp("", "abc") < 0);
 			Assert::IsTrue(StrCmp("abc", "") > 0);
+			// Unsigned char testing.
+			char a[] = {-1, 0};			
+			char b[] = {'a', 0};
+			Assert::IsTrue(StrCmp(a, b) > 0);
 		}
 
 		TEST_METHOD(TestStrCmpN)

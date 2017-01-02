@@ -26,7 +26,7 @@ int StrCmp(const char* str1, const char* str2)
 	{
 	}
 
-	return *((unsigned char*)str1) - *((unsigned char*)str2);
+	return (unsigned char)(*str1) - (unsigned char)(*str2);
 }
 
 int StrCmpN(const char* str1, const char* str2, unsigned int n)
