@@ -15,6 +15,13 @@ namespace UnitTest
 			Assert::AreEqual(ToLower('!'), '!');
 		}
 
+		TEST_METHOD(TestToUpper)
+		{
+			Assert::AreEqual(ToUpper('a'), 'A');
+			Assert::AreEqual(ToUpper('A'), 'A');
+			Assert::AreEqual(ToUpper('!'), '!');
+		}
+
 		TEST_METHOD(TestStrCmp)
 		{
 			Assert::IsTrue(StrCmp("abc", "abc") == 0);

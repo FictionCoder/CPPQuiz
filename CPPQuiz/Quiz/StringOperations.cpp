@@ -1,10 +1,20 @@
 #include "stdafx.h"
 
-char ToLower(const char ch)
+char ToLower(char ch)
 {
 	if (ch >= 'A' && ch <= 'Z')
 	{
 		return ch + 'a' - 'A';
+	}
+
+	return ch;
+}
+
+char ToUpper(char ch)
+{
+	if (ch >= 'a' && ch <= 'z')
+	{
+		return ch - ('a' - 'A');
 	}
 
 	return ch;
