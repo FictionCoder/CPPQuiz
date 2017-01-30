@@ -45,6 +45,17 @@ namespace UnitTest
 			Assert::IsTrue(StrCmpN("abc", "", 3) > 0);
 			Assert::IsTrue(StrCmpN("abc", "abC", 5) > 0);
 		}
+
+		TEST_METHOD(TestReverse)
+		{
+			char testSentence[] = "Sentence to be resevered";
+			ReverseWordsInSentence(testSentence);
+			Assert::IsTrue(strcmp(testSentence, "resevered be to Sentence") == 0);
+
+			char testSentenceExtraSpaces[] = "  Sentence to  be resevered ";
+			ReverseWordsInSentenceIgnoreSpaces(testSentenceExtraSpaces);
+			Assert::IsTrue(strcmp(testSentenceExtraSpaces, " resevered be  to Sentence  ") == 0);
+		}
 	};
 }
 
