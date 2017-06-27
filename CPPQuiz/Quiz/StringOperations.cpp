@@ -68,7 +68,7 @@ void ReverseWordsInSentence(char* str)
 		{
 			_ReverseWord(wordBegin, wordEnd - 1);
 		}
-		if (*wordEnd == ' ')
+		else if (*wordEnd == ' ')
 		{
 			_ReverseWord(wordBegin, wordEnd -1);
 			wordBegin = wordEnd + 1;
