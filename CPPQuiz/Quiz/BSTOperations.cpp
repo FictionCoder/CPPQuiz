@@ -19,7 +19,7 @@ namespace BST
 			}
 			else
 			{
-				CreateNode(root->left, data);
+				return CreateNode(root->left, data);
 			}
 		}
 		else
@@ -31,7 +31,7 @@ namespace BST
 			}
 			else
 			{
-				CreateNode(root->right, data);
+				return CreateNode(root->right, data);
 			}
 		}
 	}
